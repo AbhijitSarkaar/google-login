@@ -25,7 +25,12 @@ const login = (req, res) => {
     res.render('login')
 }
 
+const googleLogin = (req, res) => {
+    console.log('google login')
+}
+
 module.exports = {
     userInfo,
-    login
+    login,
+    googleLogin
 }
